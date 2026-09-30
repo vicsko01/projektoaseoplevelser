@@ -2,12 +2,370 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+body {
     background-color: #FAF6EF;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: #EAEADB;
+    position: relative;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+nav a {
+    color: #222;
+    font-family:'Times New Roman', Times, serif sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px #5f5f5f;
+    letter-spacing: 1.5;
+    transition: 0.2;
+    text-decoration: none;
+}
+
+nav a:hover {
+    opacity: 0.5;
+}
+
+.logoknap {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    justify-content: left;
+    padding: 0;
+}
+
+.logobillede {
+    width: 180px;
+    height: auto;
+    display: block;
+}
+
+/*footer menu */
+.bundmenu {
+    width: 100%;
+    padding: 40px 60px;
+    background-color: #EAEADB;
+}
+
+.footer1 {
+display: flex;
+width: 100%;
+justify-content: space-between;
+align-items: center;
+}
+
+.haandtekst {
+    text-align: left;
+    width: 25%;
+}
+
+.haandtekst p {
+    margin: 5px 0;
+    font-size: 2em;
+}
+
+.nyhedsbrev {
+    text-align: center;
+    width: 50%;
+}
+
+.nyhedsbrev p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.tilmeld {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.tilmeld input {
+    width: 300px;
+    padding: 15px;
+}
+
+.tilmeld button {
+    background-color: #222;
+    color: white;
+    padding: 20px 30px;
+    border: none;
+}
+
+.socialikoner {
+text-align: center;
+width: 15%;
+margin-top: 10px;
+}
+
+.socialikoner a {
+color: #222;
+margin: 0 7px;
+padding: 5px 10px;
+text-shadow: 1px 1px 1px #222;
+font-size: 25px;
+border: 5px solid #484748;
+border-radius: 50%;
+}
+
+.socialmedier a:hover {
+    opacity: 0.3;
+}
+
+.socialikoner p {
+margin-top: 10px;
+justify-content: center;
+text-shadow: 2px 2px 5px #222;
+margin-top: 20px;
+}
+
+.footer2 {
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 40px;
+}
+
+.footer2 a:hover {
+    opacity: 0.3;
+}
+
+.copyrighttekst {
+    color: #222;
+    margin: 0;
+    text-align: center;
+}
+
+.fpvfooter {
+color: #222;
+text-decoration: none;
+}
+
+.kontaktfooter {
+color: #222;
+text-decoration: none;
 }
 
 /*alle sider ovenover*/
 /*forsiden nedenunder*/
+.heroforside-1 {
+    width: 100%;
+    position: relative;
+}
+.herofor1 {
+    width: 100%;
+    height: 30em;
+    object-fit: cover;
+    display: block;
+}
 
+.herotekstfor1 {
+    position: absolute;
+    font-size: 1.5em;
+    margin: 0;
+    top: 1.5em;
+    left: 1.5em;
+    color: #000000;
+    text-shadow: 5px 5px 15px #222;
+}
+
+.herotekstfor2 {
+    position: absolute;
+    font-size: 3em;
+    margin: 0;
+    top: 2em;
+    left: 0.5em;
+    color: #222;
+    text-shadow:5px 5px 15px #5f5f5f;
+
+}
+
+.herotekstfor3 {
+    position: absolute;
+    font-size: 2em;
+    margin: 0;
+    bottom: 2em;
+    left: 1em;
+    color: #222;
+    text-shadow: 5px 5px 15px #5f5f5f;
+}
+/* hvad har du lyst til menubar */
+.valg-menu {
+width: 100%;
+margin: 0;
+padding: 3em 0;
+text-align: center;
+}
+
+.ikonerforside {
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 2em;
+width: 100%;
+margin: 0;
+}
+
+.valg-forikon {
+width: 9em;
+text-align: center;
+text-decoration: none;
+color: #222;
+margin: 1em;
+}
+.ikonerforside a:hover {
+    opacity: 0.5;
+}
+
+.ikon1 {
+justify-content: center;
+align-items: center;
+display:flex;
+width: 9em;
+height: 9em;
+margin: 0;
+background-color: #D7ECF0;
+border-radius: 50%;
+}
+
+.ikon2 {
+justify-content: center;
+align-items: center;
+display: flex;
+width: 9em;
+height: 9em;
+margin: 0;
+background-color: #B5CDB0;
+border-radius: 50%;
+}
+
+.ikon3 {
+justify-content: center;
+align-items: center;
+display: flex;
+width: 9em;
+height: 9em;
+margin: 0;
+background-color: #f4bda1;
+border-radius: 50%;
+}
+
+.ikon4 {
+justify-content: center;
+align-items: center;
+display: flex;
+width: 9em;
+height: 9em;
+margin: 0;
+background-color: #beb7aa;
+border-radius: 50%;
+}
+
+.ikon5 {
+justify-content: center;
+align-items: center;
+display: flex;
+width: 9em;
+height: 9em;
+margin: 0;
+background-color: #e2b2ee;
+border-radius: 50%;
+}
+
+.ikon6 {
+justify-content: center;
+align-items: center;
+display: flex;
+width: 9em;
+height: 9em;
+margin: 0;
+background-color: #e8e7a7;
+border-radius: 50%;
+}
+
+.valg-menu .ikontekstforside1 {
+    margin-bottom: 1em;
+    font-size: 1em;
+    color: #222;
+}
+
+.ikontekstforside2 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: #222;
+}
+
+
+/* billede sektion med lines */
+.billedemedtekst2 {
+    position: relative;
+}
+
+.bilhero2 {
+    width: 100%;
+    height: 40em;
+    position: relative;
+}
+
+.overteksttilhero2 {
+    position: absolute;
+    align-items: center;
+    font-size: 1.5em;
+    margin: 0;
+    top: 1em;
+    left: 43%;
+    color: #222;
+    text-shadow: 5px 5px 15px #222;
+}
+
+.overtekst2tilhero2 {
+    position: absolute;
+    align-items: center;
+    font-size: 2.5em;
+    margin: 0;
+    top: 2em;
+    left: 33%;
+    color: #222;
+    text-shadow: 5px 5px 10px #222;
+}
+
+/* regionsknapperne */
+
+.regionslinkforside {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 2em;
+}
+
+.regionbilforside1 {
+object-fit: cover;
+width: 100%;
+height: 12em;
+    border-radius: 5%;
+}
+
+/*footer menu */
 /*oplev danmark nedenunder*/
 
 /*regionerne nedenunder*/
@@ -25,3 +383,4 @@
 /*kontakt nedenunder*/
 
 /*poltik fortrolighed og vilkaar nedenunder*/
+
