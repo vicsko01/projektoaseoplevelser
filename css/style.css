@@ -348,6 +348,32 @@ border-radius: 50%;
     text-shadow: 5px 5px 10px #222;
 }
 
+/* baeredygtigt valg sektion*/
+
+.infoboksstaycation {
+
+}
+
+.infoboksstaycation h2 {
+
+}
+
+.staycationboks1 {
+
+}
+
+.staycationboks2 {
+
+}
+
+.staycationboks3 {
+
+}
+
+.staycationboks4 {
+    
+}
+
 /* regionsknapperne */
 
 .regionslinkforside {
@@ -365,7 +391,6 @@ height: 12em;
     border-radius: 5%;
 }
 
-/*footer menu */
 /*oplev danmark nedenunder*/
 
 /*regionerne nedenunder*/
