@@ -327,7 +327,7 @@ border-radius: 50%;
 .infoboksstaycation {
     background-color: #EAEADB;
     width: 100%;
-    padding: 60px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -336,21 +336,37 @@ border-radius: 50%;
 }
 
 .staycationboks1, .staycationboks2, .staycationboks3, .staycationboks4 {
-    width: 25%;
-    padding: 15px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 1em;
 }
 
 .staycationboks1 img, .staycationboks2 img, .staycationboks3 img, .staycationboks4 img {
-    width: 80px;
-    height: 80px;
+object-fit: contain;
+width: 80px;
+height: 10em;
 }
 
 .staycationboks1 h3, .staycationboks2 h3, .staycationboks3 h3, .staycationboks4 h3 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 9em;
+    height: 9em;
+    margin: 0;
     font-size: 1em;
 }
 
 .staycationboks1 p, .staycationboks2 p, .staycationboks3 p, .staycationboks4 p {
     font-size: 0.8em;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 9em;
+    height: 9em;
+    margin: 0;
 }
 
 /* regionsknapperne */
