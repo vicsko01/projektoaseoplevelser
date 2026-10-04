@@ -166,11 +166,16 @@ text-decoration: none;
 }
 
 /*alle sider ovenover*/
+
+
+
 /*forsiden nedenunder*/
+
 .heroforside-1 {
     width: 100%;
     position: relative;
 }
+
 .herofor1 {
     width: 100%;
     height: 30em;
@@ -208,7 +213,10 @@ text-decoration: none;
     color: #222;
     text-shadow: 5px 5px 15px #5f5f5f;
 }
+
+
 /* hvad har du lyst til menubar */
+
 .valg-menu {
 width: 100%;
 margin: 0;
@@ -225,6 +233,18 @@ width: 100%;
 margin: 0;
 }
 
+.valg-menu .ikontekstforside1 {
+    margin-bottom: 1em;
+    font-size: 1em;
+    color: #222;
+}
+
+.ikontekstforside2 {
+    margin-bottom: 1em;
+    font-size: 2em;
+    color: #222;
+}
+
 .valg-forikon {
 width: 9em;
 text-align: center;
@@ -232,6 +252,7 @@ text-decoration: none;
 color: #222;
 margin: 1em;
 }
+
 .ikonerforside a:hover {
     opacity: 0.5;
 }
@@ -302,51 +323,49 @@ background-color: #e8e7a7;
 border-radius: 50%;
 }
 
-.valg-menu .ikontekstforside1 {
-    margin-bottom: 1em;
-    font-size: 1em;
-    color: #222;
-}
-
-.ikontekstforside2 {
-    margin-bottom: 1em;
-    font-size: 2em;
-    color: #222;
-}
-
 
 /* billede sektion 2 */
+
 .bilhero2 {
     width: 100%;
     height: 35em;
     position: relative;
 }
 
+
 /* baeredygtigt valg sektion*/
 
 .infoboksstaycation {
     background-color: #EAEADB;
     width: 100%;
-    padding: 20px;
+    padding: 60px 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 
-.infoboksstaycation h2 {
+.forsidetekstinfo11 {
     font-size: 2.5em;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+
 }
 
 .staycationboks1, .staycationboks2, .staycationboks3, .staycationboks4 {
     position: relative;
     align-items: center;
     justify-content: center;
-    display: flex;
-    gap: 1em;
+    gap: 2em;
+    top: 35px;
+
 }
 
 .staycationboks1 img, .staycationboks2 img, .staycationboks3 img, .staycationboks4 img {
-object-fit: contain;
-width: 80px;
-height: 10em;
+    object-fit: contain;
+    width: 80px;
+    height: 10em;
 }
 
 .staycationboks1 h3, .staycationboks2 h3, .staycationboks3 h3, .staycationboks4 h3 {
@@ -369,6 +388,7 @@ height: 10em;
     margin: 0;
 }
 
+
 /* regionsknapperne */
 
 .regionslinkforside {
@@ -380,15 +400,358 @@ height: 10em;
 }
 
 .regionbilforside1 {
-object-fit: cover;
-width: 100%;
-height: 12em;
+    object-fit: cover;
+    width: 100%;
+    height: 12em;
     border-radius: 5%;
 }
 
+.regionfor1 {
+    position: relative;
+}
+
+.regionfor1 h2 {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: #ffffff;
+    text-shadow: 
+    2px 2px 5px #000000,
+    2px 2px 5px #000000,
+    2px 2px 5px #000000,
+    2px 2px 5px #000000;
+}
+
+
+
 /*oplev danmark nedenunder*/
 
+/*første sektion*/
+
+.odhero1 {
+    width: 100%;
+    position: relative;
+}
+
+.odheropic1 {
+    width: 100%;
+    height: 30em;
+    object-fit: cover;
+    display: block;
+}
+
+.odherotekst1 {
+    position: absolute;
+    font-size: 4em;
+    margin: 0;
+    top: 1em;
+    left: 1em;
+    color: #000000;
+    text-shadow: 5px 5px 15px #222;
+}
+
+.odherotekst2 {
+    position: absolute;
+    font-size: 2em;
+    margin: 0;
+    top: 5.5em;
+    left: 2.2em;
+    color: #222;
+    text-shadow:5px 5px 15px #5f5f5f;
+
+}
+
+.odherotekst3 {
+    position: absolute;
+    font-size: 1.6em;
+    margin: 0;
+    bottom: 9em;
+    left: 2.7em;
+    color: #222;
+    text-shadow: 5px 5px 15px #5f5f5f;
+}
+
+
+/*anden sektion i oplev danmark*/
+
+/*sektion 1 i slides*/
+
+.odfaner1 {
+    position: relative;
+}
+
+.odoverskrift1fanereg {
+display: flex;
+Margin: 0.5em;
+padding: 1em;
+font-size: 40px;
+color: #424E2F;
+text-shadow: 1px 1px 2px #424E2F;
+}
+
+.odoverskrift1fanereg img {
+width: 65px;
+height: 20px;
+margin-left: auto;
+}
+
+.odosfane1 :hover {
+    opacity: 0.5;
+}
+
+.odosfane1 {
+    text-decoration: none;
+}
+
+
+.odfaneregioner {
+width: 100%;
+}
+
+.odregionfane {
+Display: inline-block;
+}
+
+.odregionfane img {
+    object-fit: cover;
+    border-radius: 25px;
+    width: 92%;
+    margin: 10px;
+    padding: 15px;
+}
+
+.odregionfane p {
+    position: absolute;
+    bottom: 20px;
+    margin: 35px;
+    color:#ffff;
+    text-shadow: 
+    6px 6px 6px #000000,
+    6px 6px 6px #000000,
+    6px 6px 6px #000000,
+    6px 6px 6px #000000;
+    font-size: 35px;
+}
+
+/*sektion 2 i slides*/
+
+.odoverskrift2faneop {
+display: flex;
+Margin: 0.5em;
+padding: 1em;
+font-size: 40px;
+color: #424E2F;
+text-shadow: 1px 1px 2px #424E2F;
+}
+
+.odoverskrift2faneop img {
+width: 65px;
+height: 20px;
+margin-left: auto;
+}
+
+.odosfane2 :hover {
+    opacity: 0.5;
+}
+
+.odosfane2 {
+    text-decoration: none;
+}
+
+
+.odoplevelsesfaner {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.odoplevelsesfane {
+display: inline-block;
+width: 18%;
+position: relative;
+vertical-align: top;
+}
+
+.odoplevelsesfane img {
+    object-fit: contain;
+    border-radius: 25px;
+    width: 100%;
+    height: 250px;
+}
+
+.odoplevelsesfane p {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    color:#ffff;
+    text-shadow: 
+    6px 6px 6px #000000,
+    6px 6px 6px #000000,
+    6px 6px 6px #000000,
+    6px 6px 6px #000000;
+    font-size: 30px;
+}
+
+
+
+/*sektion 3 i slides*/
+
+.odfaner3 {
+width: 100%;
+}
+
+.odoverskrift3fanepopulaer {
+display: flex;
+Margin: 0.5em;
+padding: 1em;
+font-size: 40px;
+color: #424E2F;
+text-shadow: 1px 1px 2px #424E2F;
+vertical-align: top;
+}
+
+.odoverskrift3fanepopulaer img {
+width: 65px;
+height: 20px;
+margin-left: auto;
+vertical-align: top;
+}
+
+.odpofane3 :hover {
+    opacity: 0.5;
+}
+
+.odpofane3 {
+text-decoration: none;
+}
+
+
+.odpopulaerfaner {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.odpopulaerfane {
+display: inline-block;
+width: 18%;
+position: relative;
+}
+
+.odpopulaerfane img {
+    object-fit: cover;
+    border-radius: 25px;
+    width: 100%;
+    height: 250px;
+}
+
+.odpopulaerfane p {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    color:#ffff;
+    text-shadow: 
+    6px 6px 6px #000000,
+    6px 6px 6px #000000,
+    6px 6px 6px #000000,
+    6px 6px 6px #000000;
+    font-size: 35px;
+}
+
+
+/*tredje fane med grøn mini hero*/
+
+.odminihero1 {
+    background-color: #B5CDB0;
+    position: relative;
+    height: 400px;
+    width: 100%;
+}
+
+
+
+.odminiheropic1 {
+    position: absolute;
+    width: 250px;
+    right: 80px;
+    top: 45px;
+}
+
+.odminihero1 h2 {
+    position: absolute;
+    margin: 35px;
+    padding: 50px;    
+    font-size: 50px;
+    color: #424E2F;
+    text-shadow: 1px 1px 1px #424E2F;
+}
+
+.odminihero1 p {
+    position: absolute;
+    margin-bottom: auto;
+    padding: 200px;
+    font-size: 35px;
+}
+
+.buttonodp {
+    position: absolute;
+    right: 500px;
+    bottom: 150px;
+
+    width: 220px;
+    height: 40px;
+    
+    background-color: #758f4c;
+    color: #000000;
+    text-decoration: none;
+    
+    border-radius: 3px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    
+    
+
+}
+
+
 /*regionerne nedenunder*/
+
+.rehero1 {
+    width: 100%;
+    position: relative;
+}
+
+.reheropic1 {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    display: block;
+}
+
+.reherotekst1 {
+    position: absolute;
+    font-size: 3.5em;
+    margin: 0;
+    top: 1.5em;
+    left: 1.5em;
+    color: #000000;
+    text-shadow: 5px 5px 15px #222;
+}
+
+
+/*1 tekst sektion med kort*/
+
+.rehero2 {
+    display: flex;
+    width: 100%;
+}
+
+.regfane1 {
+
+}
 
 /*planlæg din tur nedenunder*/
 
