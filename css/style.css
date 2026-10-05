@@ -8,6 +8,7 @@ body {
     background-color: #FAF6EF;
     margin: 0;
     padding: 0;
+    width: 1520px;
 }
 
 header {
@@ -719,6 +720,13 @@ position: relative;
 
 /*regionerne nedenunder*/
 
+
+
+
+
+
+
+/*region hovedstaden*/
 .rehero1 {
     width: 100%;
     position: relative;
@@ -742,18 +750,2456 @@ position: relative;
 }
 
 
-/*1 tekst sektion med kort*/
+/*rh 1 tekst sektion med kort*/
 
 .rehero2 {
-    display: flex;
+    position: relative;
     width: 100%;
 }
 
+/*rh overskrift*/
 .regfane1 {
+    position: absolute;
+    top: 20px;
+    width: 45%;
+    top: 20px;
+    left: 15px;
+}
+
+.regfane1 h3 {
+    position: absolute;
+font-size: 40px;
+top: 15px;
+left: 25px;
+color: #424E2F;
+}
+
+.regfane1 p {
+position: absolute;
+font-size: 20px;
+top: 70px;
+left: 20px;
+}
+
+/*rh ikon tekster*/
+.regfaner1 {
+position: relative;
+    top: 110px;
+    left: 25px;
+}
+
+.regfaner1 img {
+    position: absolute;
+    width: 80px;
+    top: 60px;
+}
+
+.regfaner1 h4 {
+position: absolute;
+font-size: 40px;
+    top: 40px;
+    left: 105px;
+}
+
+.regfaner1 p {
+position: absolute;
+font-size: 30px;
+top: 90px;
+left: 110px;
+}
+/*rh sektion 2 ikon*/
+.regfaner2{
+position: relative;
+    top: 290px;
+    left: 25px;
+} 
+
+.regfaner2 img {
+    position: absolute;
+    width: 80px;
+    top: 60px;
+}
+
+.regfaner2 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 15px;
+    left: 115px;
+}
+
+.regfaner2 p {
+    position: absolute;
+    font-size: 30px;
+    top: 70px;
+    left: 115px;
+}
+/*rh sektion 3 ikoner*/
+.regfaner3 {
+position: relative;
+    top: 310px;
+    left: 25px;
+}
+
+.regfaner3 img {
+    position: absolute;
+    width: 80px;
+    top: 210px;
+}
+
+.regfaner3 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 190px;
+    left: 115px;
+}
+
+.regfaner3 p {
+    position: absolute;
+    font-size: 30px;
+    top: 240px;
+    left: 115px;
+}
+/*rh sektion 4 ikoner*/
+.regfaner4 {
+position: relative;
+    top: 410px;
+    left: 25px;
+}
+
+.regfaner4 img {
+    position: absolute;
+width: 80px;
+top: 270px;
+left: 10px;
 
 }
 
+.regfaner4 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 240px;
+    left: 115px;
+}
+
+.regfaner4 p {
+    position: absolute;
+    font-size: 30px;
+    top: 290px;
+    left: 115px;
+}
+/*rh kortbillede*/
+ .regmap1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    right: 5px;
+    left: 600px;
+ }
+
+ /*rh Slide sektioner på region hovedstaden*/
+
+.slidesoverrh1 {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    top: 920px;
+    background-color: #B5CDB0;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.rhslideoverskrift1 {
+    display: flex;
+    Margin: 0.5em;
+    padding: 1em;
+    font-size: 40px;
+    color: #020202;
+    text-shadow: 1px 1px 2px #040404;
+}
+
+
+.rhslidefane1 {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.slidereg1 {
+width: 18%;
+position: relative;
+}
+
+.slidereg1 :hover {
+opacity: 0.5;
+}
+
+.slidereg1 img {
+    object-fit: cover;
+    border-radius: 25px;
+    width: 98%;
+    height: 250px;
+}
+
+.slidereg1 h3 {
+    position: absolute;
+    top: 270px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.slidereg1 p {
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    color:#000000;
+    font-size: 25px;
+    top: 360px;
+}
+
+/*rh slidesektion 2 i region hovedstaden*/
+.slidesoverrh2 {
+    position: relative;
+    width: 100%;
+    height: 830px;
+    top: 995px;
+    background-color: #B5CDB0;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.rhslideoverskrift2 {
+    display: flex;
+    Margin: 0.5em;
+    padding: 1em;
+    font-size: 40px;
+    color: #020202;
+    text-shadow: 1px 1px 2px #040404;
+}
+
+
+.rhslidefane2 {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.slidereg2 {
+width: 18%;
+position: relative;
+}
+
+.slidereg2 :hover {
+opacity: 0.5;
+}
+
+.slidereg2 img {
+    object-fit: cover;
+    border-radius: 25px;
+    width: 98%;
+    height: 250px;
+}
+
+.slidereg2 h3 {
+    position: absolute;
+    top: 270px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.slidereg2 p {
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    color:#000000;
+    font-size: 25px;
+    top: 360px;
+}
+
+/*rh oplevelser hele året sektion*/
+
+.reoplevelsessektion1 {
+    position: relative;
+    width: 100%;
+    height: 1400px;
+    padding: 250px;
+    box-sizing: border-box;
+}
+
+.reopoverskrift1 {
+    width: 20%;
+    left: 0%;
+}  
+
+.reopoverskrift1 h2 {
+    position: absolute;
+    top:1050px;
+    left: 40px;
+    font-size: 65px;
+    width: 17%;
+}
+
+.reopoverskrift1 p {
+    position: absolute;
+    top: 1200px;
+    left: 40px;
+    font-size: 25px;
+    width: 17%;
+}
+
+.aaretsoplevelser1 {
+    position: absolute;
+    top: 1150px;
+    left: 25%;
+    width: 12%;
+}
+
+.aaretsoplevelser2 {
+    position: absolute;
+    top: 1150px;
+    left: 42%;
+    width: 12%;
+}
+
+.aaretsoplevelser3 {
+    position: absolute;
+    top: 1150px;
+    left: 60%;
+    width: 12%;
+}
+
+.aaretsoplevelser4 {
+    position: absolute;
+    top: 1150px;
+    left: 80%;
+    width: 12%;
+}
+
+.aaretsoplevelser1 img {
+    position: static;
+    top: 30px;
+    left: 60px;
+    width: 50px;
+} 
+
+.aaretsoplevelser2 img {
+    position: static;
+    top: 30px;
+    left: 260px;
+    width: 50px;
+} 
+
+.aaretsoplevelser3 img {
+    position: static;
+    top: 30px;
+    left: 360px;
+    width: 50px;
+} 
+
+.aaretsoplevelser4 img {
+    position: static;
+    top: 30px;
+    left: 360px;
+    width: 50px;
+}
+
+.aaretsoplevelser1 h3 {
+    position: static;
+    margin-top: 10px;
+} 
+
+.aaretsoplevelser2 h3 {
+    position: static;
+    margin-top: 10px;
+} 
+
+.aaretsoplevelser3 h3 {
+        position: static;
+margin-top: 10px;
+} 
+
+.aaretsoplevelser4 h3 {
+    position: static;
+    margin-top: 10px;
+}
+
+.aaretsoplevelser1 p {
+    position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelser2 p {
+    position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelser3 p {
+        position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelser4 p {
+        position: static;
+    margin-top: 25px;
+}
+/*rh praktisk information sektion*/
+
+.repraktiskop1 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #EAEADB;
+    box-sizing: border-box;
+}
+
+.repraktiskop1 h2 {
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    top: 20px;
+    left: 25px;
+}
+
+.repraktiskop1 h3 {
+    color: #000000;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.repraktiskop1 p {
+    color: #000000;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.reprakinfo1 {
+    position: absolute;
+    left: 5%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfo2 {
+    position: absolute;
+    left: 28%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfo3 {
+    position: absolute;
+    left: 51%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfo4 {
+    position: absolute;
+    left: 74%;
+    top: 80px;
+    width: 20%;
+}
+
+
+
+/*region sjælland*/
+.resjhero2 {
+    position: relative; 
+    width: 100%;
+}
+
+.resjheropic2 {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    display: block;
+}
+
+.resjherotekst2 {
+    position: absolute;
+    font-size: 3.5em;
+    margin: 0;
+    top: 1.5em;
+    left: 1.5em;
+    color: #000000;
+    text-shadow: 5px 5px 15px #222;
+}
+
+
+/*rh 1 tekst sektion med kort*/
+
+.regsjhero2 {
+    position: relative;
+    width: 100%;
+}
+
+/*region sj overskrift*/
+.regsjfane1 {
+    position: absolute;
+    width: 45%;
+    top: 20px;
+    left: 15px;
+}
+
+.regsjfane1 h3 {
+    position: absolute;
+font-size: 40px;
+top: 100px;
+left: 25px;
+color: #424E2F;
+}
+
+.regsjfane1 p {
+position: absolute;
+font-size: 20px;
+top: 70px;
+left: 20px;
+}
+
+/*reg sj ikon tekster*/
+.regsjfaner1 {
+position: relative;
+    top: 110px;
+    left: 25px;
+}
+
+.regsjfaner1 img {
+    position: absolute;
+    width: 80px;
+    top: 60px;
+}
+
+.regsjfaner1 h4 {
+position: absolute;
+font-size: 40px;
+    top: 40px;
+    left: 105px;
+}
+
+.regsjfaner1 p {
+position: absolute;
+font-size: 30px;
+top: 90px;
+left: 110px;
+}
+/*rh sektion 2 ikon*/
+.regsjfaner2  {
+position: relative;
+    top: 290px;
+    left: 25px;
+} 
+
+.regsjfaner2 img {
+    position: absolute;
+    width: 80px;
+    top: 60px;
+}
+
+.regsjfaner2 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 15px;
+    left: 115px;
+}
+
+.regsjfaner2 p {
+    position: absolute;
+    font-size: 30px;
+    top: 70px;
+    left: 115px;
+}
+/*rh sektion 3 ikoner*/
+.regsjfaner3 {
+position: relative;
+    top: 310px;
+    left: 25px;
+}
+
+.regsjfaner3 img {
+    position: absolute;
+    width: 80px;
+    top: 210px;
+}
+
+.regsjfaner3 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 190px;
+    left: 115px;
+}
+
+.regsjfaner3 p {
+    position: absolute;
+    font-size: 30px;
+    top: 240px;
+    left: 115px;
+}
+/*rh sektion 4 ikoner*/
+.regsjfaner4 {
+position: relative;
+    top: 410px;
+    left: 25px;
+}
+
+.regsjfaner4 img {
+    position: absolute;
+width: 80px;
+top: 270px;
+left: 10px;
+
+}
+
+.regsjfaner4 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 240px;
+    left: 115px;
+}
+
+.regsjfaner4 p {
+    position: absolute;
+    font-size: 30px;
+    top: 290px;
+    left: 115px;
+}
+/*rh kortbillede*/
+ .regsjmap1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 2px;
+    right: 2px;
+    left: 500px;
+ }
+
+ /*rh Slide sektioner på region hovedstaden*/
+
+.slidesoverrs1 {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    top: 920px;
+    background-color: #B5CDB0;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.rsslideoverskrift1 {
+    display: flex;
+    Margin: 0.5em;
+    padding: 1em;
+    font-size: 40px;
+    color: #020202;
+    text-shadow: 1px 1px 2px #040404;
+}
+
+
+.rsslidefane1 {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.slideregsj1 {
+width: 18%;
+position: relative;
+}
+
+.slideregsj1 :hover {
+opacity: 0.5;
+}
+
+.slideregsj1 img {
+    object-fit: cover;
+    border-radius: 25px;
+    width: 98%;
+    height: 250px;
+}
+
+.slideregsj1 h3 {
+    position: absolute;
+    top: 270px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.slideregsj1 p {
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    color:#000000;
+    font-size: 25px;
+    top: 360px;
+}
+
+/*rh slidesektion 2 i region hovedstaden*/
+.slidesoverrs2 {
+    position: relative;
+    width: 100%;
+    height: 830px;
+    top: 995px;
+    background-color: #B5CDB0;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.rsslideoverskrift2 {
+    display: flex;
+    Margin: 0.5em;
+    padding: 1em;
+    font-size: 40px;
+    color: #020202;
+    text-shadow: 1px 1px 2px #040404;
+}
+
+
+.rsslidefane2 {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.slidergsj2 {
+width: 18%;
+position: relative;
+}
+
+.slidergsj2 :hover {
+opacity: 0.5;
+}
+
+.slidergsj2 img {
+    object-fit: cover;
+    border-radius: 25px;
+    width: 98%;
+    height: 250px;
+}
+
+.slidergsj2 h3 {
+    position: absolute;
+    top: 270px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.slidergsj2 p {
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    color:#000000;
+    font-size: 25px;
+    top: 360px;
+}
+
+/*rh oplevelser hele året sektion*/
+
+.reoplevelsessektion2 {
+    position: relative;
+    width: 100%;
+    height: 1400px;
+    padding: 250px;
+    box-sizing: border-box;
+}
+
+.reopoverskrift2 {
+    width: 20%;
+    left: 0%;
+}  
+
+.reopoverskrift2 h2 {
+    position: absolute;
+    top:1050px;
+    left: 40px;
+    font-size: 65px;
+    width: 17%;
+}
+
+.reopoverskrift2 p {
+    position: absolute;
+    top: 1200px;
+    left: 40px;
+    font-size: 25px;
+    width: 17%;
+}
+
+.aaretsoplevelsersj1 {
+    position: absolute;
+    top: 1150px;
+    left: 25%;
+    width: 12%;
+}
+
+.aaretsoplevelsersj2 {
+    position: absolute;
+    top: 1150px;
+    left: 42%;
+    width: 12%;
+}
+
+.aaretsoplevelsersj3 {
+    position: absolute;
+    top: 1150px;
+    left: 60%;
+    width: 12%;
+}
+
+.aaretsoplevelsersj4 {
+    position: absolute;
+    top: 1150px;
+    left: 80%;
+    width: 12%;
+}
+
+.aaretsoplevelsersj1 img {
+    position: static;
+    top: 30px;
+    left: 60px;
+    width: 50px;
+} 
+
+.aaretsoplevelsersj2 img {
+    position: static;
+    top: 30px;
+    left: 260px;
+    width: 50px;
+} 
+
+.aaretsoplevelsersj3 img {
+    position: static;
+    top: 30px;
+    left: 360px;
+    width: 50px;
+} 
+
+.aaretsoplevelsersj4 img {
+    position: static;
+    top: 30px;
+    left: 360px;
+    width: 50px;
+}
+
+.aaretsoplevelsersj1 h3 {
+    position: static;
+    margin-top: 10px;
+} 
+
+.aaretsoplevelsersj2 h3 {
+    position: static;
+    margin-top: 10px;
+} 
+
+.aaretsoplevelsersj3 h3 {
+        position: static;
+margin-top: 10px;
+} 
+
+.aaretsoplevelsersj4 h3 {
+    position: static;
+    margin-top: 10px;
+}
+
+.aaretsoplevelsersj1 p {
+    position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelsersj2 p {
+    position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelsersj3 p {
+        position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelsersj4 p {
+        position: static;
+    margin-top: 25px;
+}
+/*rh praktisk information sektion*/
+
+.repraktiskopsj1 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #EAEADB;
+    box-sizing: border-box;
+}
+
+.repraktiskopsj1 h2 {
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    top: 20px;
+    left: 25px;
+}
+
+.repraktiskopsj1 h3 {
+    color: #000000;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.repraktiskopsj1 p {
+    color: #000000;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.reprakinfosj1 {
+    position: absolute;
+    left: 5%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfosj2 {
+    position: absolute;
+    left: 28%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfosj3 {
+    position: absolute;
+    left: 51%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfosj4 {
+    position: absolute;
+    left: 74%;
+    top: 80px;
+    width: 20%;
+}
+
+
+
+
+
+
+/*region syddanmark*/
+.resdhero3 {
+    width: 100%;
+    position: relative;
+}
+
+.resdheropic2 {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    display: block;
+}
+
+.resdherotekst2 {
+    position: absolute;
+    font-size: 3.5em;
+    margin: 0;
+    top: 1.5em;
+    left: 1.5em;
+    color: #000000;
+    text-shadow: 5px 5px 15px #222;
+}
+
+
+/*rsd 1 tekst sektion med kort*/
+
+.regsdhero3 {
+    position: relative;
+    width: 100%;
+}
+
+/*region sj overskrift*/
+.regsdfane1 {
+    position: absolute;
+    top: 20px;
+    width: 45%;
+    top: 20px;
+    left: 15px;
+}
+
+.regsdfane1 h3 {
+    position: absolute;
+font-size: 40px;
+top: 15px;
+left: 25px;
+color: #424E2F;
+}
+
+.regsdfane1 p {
+position: absolute;
+font-size: 20px;
+top: 70px;
+left: 20px;
+}
+
+/*rsd ikon tekster*/
+.regsdfaner1 {
+position: relative;
+    top: 110px;
+    left: 25px;
+}
+
+.regsdfaner1 img {
+    position: absolute;
+    width: 80px;
+    top: 60px;
+}
+
+.regsdfaner1 h4 {
+position: absolute;
+font-size: 40px;
+    top: 40px;
+    left: 105px;
+}
+
+.regsdfaner1 p {
+position: absolute;
+font-size: 30px;
+top: 90px;
+left: 110px;
+}
+/*rsd sektion 2 ikon*/
+.regsdfaner2  {
+position: relative;
+    top: 290px;
+    left: 25px;
+} 
+
+.regsdfaner2 img {
+    position: absolute;
+    width: 80px;
+    top: 60px;
+}
+
+.regsdfaner2 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 15px;
+    left: 115px;
+}
+
+.regsdfaner2 p {
+    position: absolute;
+    font-size: 30px;
+    top: 70px;
+    left: 115px;
+}
+/*rsd sektion 3 ikoner*/
+.regsdfaner3 {
+position: relative;
+    top: 310px;
+    left: 25px;
+}
+
+.regsdfaner3 img {
+    position: absolute;
+    width: 80px;
+    top: 210px;
+}
+
+.regsdfaner3 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 190px;
+    left: 115px;
+}
+
+.regsdfaner3 p {
+    position: absolute;
+    font-size: 30px;
+    top: 240px;
+    left: 115px;
+}
+/*rsd sektion 4 ikoner*/
+.regsdfaner4 {
+position: relative;
+    top: 410px;
+    left: 25px;
+}
+
+.regsdfaner4 img {
+    position: absolute;
+width: 80px;
+top: 270px;
+left: 10px;
+
+}
+
+.regsdfaner4 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 240px;
+    left: 115px;
+}
+
+.regsdfaner4 p {
+    position: absolute;
+    font-size: 30px;
+    top: 290px;
+    left: 115px;
+}
+/*rsd kortbillede*/
+ .regsdmap1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    right: 5px;
+    left: 600px;
+ }
+
+ /*rsd Slide sektioner på region syddanmark*/
+
+.slidesoverrsd1 {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    top: 920px;
+    background-color: #B5CDB0;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.rsdslideoverskrift1 {
+    display: flex;
+    Margin: 0.5em;
+    padding: 1em;
+    font-size: 40px;
+    color: #020202;
+    text-shadow: 1px 1px 2px #040404;
+}
+
+
+.rsdslidefane1 {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.slideregsd1 {
+width: 18%;
+position: relative;
+}
+
+.slideregsd1 :hover {
+opacity: 0.5;
+}
+
+.slideregsd1 img {
+    object-fit: cover;
+    border-radius: 25px;
+    width: 98%;
+    height: 250px;
+}
+
+.slideregsd1 h3 {
+    position: absolute;
+    top: 270px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.slideregsd1 p {
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    color:#000000;
+    font-size: 25px;
+    top: 360px;
+}
+
+/*rsj slidesektion 2 i region sjaelland*/
+.slidesoverrsd2 {
+    position: relative;
+    width: 100%;
+    height: 830px;
+    top: 995px;
+    background-color: #B5CDB0;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.rsdslideoverskrift2 {
+    display: flex;
+    Margin: 0.5em;
+    padding: 1em;
+    font-size: 40px;
+    color: #020202;
+    text-shadow: 1px 1px 2px #040404;
+}
+
+
+.rsdslidefane2 {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.slidergsd2 {
+width: 18%;
+position: relative;
+}
+
+.slidergsd2 :hover {
+opacity: 0.5;
+}
+
+.slidergsd2 img {
+    object-fit: cover;
+    border-radius: 25px;
+    width: 98%;
+    height: 250px;
+}
+
+.slidergsd2 h3 {
+    position: absolute;
+    top: 270px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.slidergsd2 p {
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    color:#000000;
+    font-size: 25px;
+    top: 360px;
+}
+
+/*rsd oplevelser hele året sektion*/
+
+.resdoplevelsessektion1 {
+    position: relative;
+    width: 100%;
+    height: 1400px;
+    padding: 250px;
+    box-sizing: border-box;
+}
+
+.resdopoverskrift2 {
+    width: 20%;
+    left: 0%;
+}  
+
+.resdopoverskrift2 h2 {
+    position: absolute;
+    top:1050px;
+    left: 40px;
+    font-size: 65px;
+    width: 17%;
+}
+
+.resdopoverskrift2 p {
+    position: absolute;
+    top: 1200px;
+    left: 40px;
+    font-size: 25px;
+    width: 17%;
+}
+
+.aaretsoplevelsersd1 {
+    position: absolute;
+    top: 1150px;
+    left: 25%;
+    width: 12%;
+}
+
+.aaretsoplevelsersd2 {
+    position: absolute;
+    top: 1150px;
+    left: 42%;
+    width: 12%;
+}
+
+.aaretsoplevelsersd3 {
+    position: absolute;
+    top: 1150px;
+    left: 60%;
+    width: 12%;
+}
+
+.aaretsoplevelsersd4 {
+    position: absolute;
+    top: 1150px;
+    left: 80%;
+    width: 12%;
+}
+
+.aaretsoplevelsersd1 img {
+    position: static;
+    top: 30px;
+    left: 60px;
+    width: 50px;
+} 
+
+.aaretsoplevelsersd2 img {
+    position: static;
+    top: 30px;
+    left: 260px;
+    width: 50px;
+} 
+
+.aaretsoplevelsersd3 img {
+    position: static;
+    top: 30px;
+    left: 360px;
+    width: 50px;
+} 
+
+.aaretsoplevelsersd4 img {
+    position: static;
+    top: 30px;
+    left: 360px;
+    width: 50px;
+}
+
+.aaretsoplevelsersd1 h3 {
+    position: static;
+    margin-top: 10px;
+} 
+
+.aaretsoplevelsersd2 h3 {
+    position: static;
+    margin-top: 10px;
+} 
+
+.aaretsoplevelsersd3 h3 {
+        position: static;
+margin-top: 10px;
+} 
+
+.aaretsoplevelsersd4 h3 {
+    position: static;
+    margin-top: 10px;
+}
+
+.aaretsoplevelsersd1 p {
+    position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelsersd2 p {
+    position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelsersd3 p {
+        position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelsersd4 p {
+        position: static;
+    margin-top: 25px;
+}
+/*rsd praktisk information sektion*/
+
+.repraktiskopsd1 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #EAEADB;
+    box-sizing: border-box;
+}
+
+.repraktiskopsd1 h2 {
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    top: 20px;
+    left: 25px;
+}
+
+.repraktiskopsd1 h3 {
+    color: #000000;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.repraktiskopsd1 p {
+    color: #000000;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.reprakinfosd1 {
+    position: absolute;
+    left: 5%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfosd2 {
+    position: absolute;
+    left: 28%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfosd3 {
+    position: absolute;
+    left: 51%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfosd4 {
+    position: absolute;
+    left: 74%;
+    top: 80px;
+    width: 20%;
+}
+
+
+
+
+
+
+
+/*region midtjylland*/
+.remhero4 {
+    width: 100%;
+    position: relative;
+}
+
+.remheropic2 {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    display: block;
+}
+
+.remherotekst2 {
+    position: absolute;
+    font-size: 3.5em;
+    margin: 0;
+    top: 1.5em;
+    left: 1.5em;
+    color: #000000;
+    text-shadow: 5px 5px 15px #222;
+}
+
+
+/*rm 1 tekst sektion med kort*/
+
+.regmhero2 {
+    position: relative;
+    width: 100%;
+}
+
+/*region m overskrift*/
+.regmfane1 {
+    position: absolute;
+    top: 20px;
+    width: 45%;
+    top: 20px;
+    left: 15px;
+}
+
+.regmfane1 h3 {
+    position: absolute;
+font-size: 40px;
+top: 15px;
+left: 25px;
+color: #424E2F;
+}
+
+.regmfane1 p {
+position: absolute;
+font-size: 20px;
+top: 70px;
+left: 20px;
+}
+
+/*rm ikon tekster*/
+.regmfaner1 {
+position: relative;
+    top: 110px;
+    left: 25px;
+}
+
+.regmfaner1 img {
+    position: absolute;
+    width: 80px;
+    top: 60px;
+}
+
+.regmfaner1 h4 {
+position: absolute;
+font-size: 40px;
+    top: 40px;
+    left: 105px;
+}
+
+.regmfaner1 p {
+position: absolute;
+font-size: 30px;
+top: 90px;
+left: 110px;
+}
+/*rm sektion 2 ikon*/
+.regmfaner2  {
+position: relative;
+    top: 290px;
+    left: 25px;
+} 
+
+.regmfaner2 img {
+    position: absolute;
+    width: 80px;
+    top: 60px;
+}
+
+.regmfaner2 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 15px;
+    left: 115px;
+}
+
+.regmfaner2 p {
+    position: absolute;
+    font-size: 30px;
+    top: 70px;
+    left: 115px;
+}
+/*rm sektion 3 ikoner*/
+.regmfaner3 {
+position: relative;
+    top: 310px;
+    left: 25px;
+}
+
+.regmfaner3 img {
+    position: absolute;
+    width: 80px;
+    top: 210px;
+}
+
+.regmfaner3 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 190px;
+    left: 115px;
+}
+
+.regmfaner3 p {
+    position: absolute;
+    font-size: 30px;
+    top: 240px;
+    left: 115px;
+}
+/*rm sektion 4 ikoner*/
+.regmfaner4 {
+position: relative;
+    top: 410px;
+    left: 25px;
+}
+
+.regmfaner4 img {
+    position: absolute;
+width: 80px;
+top: 270px;
+left: 10px;
+
+}
+
+.regmfaner4 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 240px;
+    left: 115px;
+}
+
+.regmfaner4 p {
+    position: absolute;
+    font-size: 30px;
+    top: 290px;
+    left: 115px;
+}
+/*rm kortbillede*/
+ .regmmap1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    right: 5px;
+    left: 600px;
+ }
+
+ /*rh Slide sektioner på region hovedstaden*/
+
+.slidesoverrm1 {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    top: 920px;
+    background-color: #B5CDB0;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.rmslideoverskrift1 {
+    display: flex;
+    Margin: 0.5em;
+    padding: 1em;
+    font-size: 40px;
+    color: #020202;
+    text-shadow: 1px 1px 2px #040404;
+}
+
+
+.rmslidefane1 {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.slideregm1 {
+width: 18%;
+position: relative;
+}
+
+.slideregm1 :hover {
+opacity: 0.5;
+}
+
+.slideregm1 img {
+    object-fit: cover;
+    border-radius: 25px;
+    width: 98%;
+    height: 250px;
+}
+
+.slideregm1 h3 {
+    position: absolute;
+    top: 270px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.slideregm1 p {
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    color:#000000;
+    font-size: 25px;
+    top: 360px;
+}
+
+/*rm slidesektion 2 i region midtjylland*/
+.slidesoverrm2 {
+    position: relative;
+    width: 100%;
+    height: 830px;
+    top: 995px;
+    background-color: #B5CDB0;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.rmslideoverskrift22 {
+    display: flex;
+    Margin: 0.5em;
+    padding: 1em;
+    font-size: 40px;
+    color: #020202;
+    text-shadow: 1px 1px 2px #040404;
+}
+
+
+.rmslidefane2 {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.slidergm2 {
+width: 18%;
+position: relative;
+}
+
+.slidergm2 :hover {
+opacity: 0.5;
+}
+
+.slidergm2 img {
+    object-fit: cover;
+    border-radius: 25px;
+    width: 98%;
+    height: 250px;
+}
+
+.slidergm2 h3 {
+    position: absolute;
+    top: 270px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.slidergm2 p {
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    color:#000000;
+    font-size: 25px;
+    top: 360px;
+}
+
+/*rm oplevelser hele året sektion*/
+
+.remoplevelsessektion1 {
+    position: relative;
+    width: 100%;
+    height: 1400px;
+    padding: 250px;
+    box-sizing: border-box;
+}
+
+.remopoverskrift2 {
+    width: 20%;
+    left: 0%;
+}  
+
+.remopoverskrift2 h2 {
+    position: absolute;
+    top:1050px;
+    left: 40px;
+    font-size: 65px;
+    width: 17%;
+}
+
+.remopoverskrift2 p {
+    position: absolute;
+    top: 1200px;
+    left: 40px;
+    font-size: 25px;
+    width: 17%;
+}
+
+.aaretsoplevelserm1 {
+    position: absolute;
+    top: 1150px;
+    left: 25%;
+    width: 12%;
+}
+
+.aaretsoplevelserm2 {
+    position: absolute;
+    top: 1150px;
+    left: 42%;
+    width: 12%;
+}
+
+.aaretsoplevelserm3 {
+    position: absolute;
+    top: 1150px;
+    left: 60%;
+    width: 12%;
+}
+
+.aaretsoplevelserm4 {
+    position: absolute;
+    top: 1150px;
+    left: 80%;
+    width: 12%;
+}
+
+.aaretsoplevelserm1 img {
+    position: static;
+    top: 30px;
+    left: 60px;
+    width: 50px;
+} 
+
+.aaretsoplevelserm2 img {
+    position: static;
+    top: 30px;
+    left: 260px;
+    width: 50px;
+} 
+
+.aaretsoplevelserm3 img {
+    position: static;
+    top: 30px;
+    left: 360px;
+    width: 50px;
+} 
+
+.aaretsoplevelserm4 img {
+    position: static;
+    top: 30px;
+    left: 360px;
+    width: 50px;
+}
+
+.aaretsoplevelserm1 h3 {
+    position: static;
+    margin-top: 10px;
+} 
+
+.aaretsoplevelserm2 h3 {
+    position: static;
+    margin-top: 10px;
+} 
+
+.aaretsoplevelserm3 h3 {
+        position: static;
+margin-top: 10px;
+} 
+
+.aaretsoplevelserm4 h3 {
+    position: static;
+    margin-top: 10px;
+}
+
+.aaretsoplevelserm1 p {
+    position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelserm2 p {
+    position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelserm3 p {
+        position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelserm4 p {
+        position: static;
+    margin-top: 25px;
+}
+/*rm praktisk information sektion*/
+
+.repraktiskopm1 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #EAEADB;
+    box-sizing: border-box;
+}
+
+.repraktiskopm1 h2 {
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    top: 20px;
+    left: 25px;
+}
+
+.repraktiskopm1 h3 {
+    color: #000000;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.repraktiskopm1 p {
+    color: #000000;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.reprakinfom1 {
+    position: absolute;
+    left: 5%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfom2 {
+    position: absolute;
+    left: 28%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfom3 {
+    position: absolute;
+    left: 51%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfom4 {
+    position: absolute;
+    left: 74%;
+    top: 80px;
+    width: 20%;
+}
+
+
+
+
+
+
+
+
+/*region nordjylland*/
+.renhero5 {
+    width: 100%;
+    position: relative;
+}
+
+.renheropic2 {
+    width: 100%;
+    height: 20em;
+    object-fit: cover;
+    display: block;
+}
+
+.renherotekst2 {
+    position: absolute;
+    font-size: 3.5em;
+    margin: 0;
+    top: 1.5em;
+    left: 1.5em;
+    color: #000000;
+    text-shadow: 5px 5px 15px #222;
+}
+
+
+/*rn 1 tekst sektion med kort*/
+
+.regnhero2 {
+    position: relative;
+    width: 100%;
+}
+
+/*region n overskrift*/
+.regnfane1 {
+    position: absolute;
+    top: 20px;
+    width: 45%;
+    top: 20px;
+    left: 15px;
+}
+
+.regnfane1 h3 {
+    position: absolute;
+font-size: 40px;
+top: 15px;
+left: 25px;
+color: #424E2F;
+}
+
+.regnfane1 p {
+position: absolute;
+font-size: 20px;
+top: 70px;
+left: 20px;
+}
+
+/*rn ikon tekster*/
+.regnfaner1 {
+position: relative;
+    top: 110px;
+    left: 25px;
+}
+
+.regnfaner1 img {
+    position: absolute;
+    width: 80px;
+    top: 60px;
+}
+
+.regnfaner1 h4 {
+position: absolute;
+font-size: 40px;
+    top: 40px;
+    left: 105px;
+}
+
+.regnfaner1 p {
+position: absolute;
+font-size: 30px;
+top: 90px;
+left: 110px;
+}
+/*rn sektion 2 ikon*/
+.regnfaner2  {
+position: relative;
+    top: 290px;
+    left: 25px;
+} 
+
+.regnfaner2 img {
+    position: absolute;
+    width: 80px;
+    top: 60px;
+}
+
+.regnfaner2 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 15px;
+    left: 115px;
+}
+
+.regnfaner2 p {
+    position: absolute;
+    font-size: 30px;
+    top: 70px;
+    left: 115px;
+}
+/*rn sektion 3 ikoner*/
+.regnfaner3 {
+position: relative;
+    top: 310px;
+    left: 25px;
+}
+
+.regnfaner3 img {
+    position: absolute;
+    width: 80px;
+    top: 210px;
+}
+
+.regnfaner3 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 190px;
+    left: 115px;
+}
+
+.regnfaner3 p {
+    position: absolute;
+    font-size: 30px;
+    top: 240px;
+    left: 115px;
+}
+/*rn sektion 4 ikoner*/
+.regnfaner4 {
+position: relative;
+    top: 410px;
+    left: 25px;
+}
+
+.regnfaner4 img {
+    position: absolute;
+width: 80px;
+top: 270px;
+left: 10px;
+
+}
+
+.regnfaner4 h4 {
+    position: absolute;
+    font-size: 40px;
+    top: 240px;
+    left: 115px;
+}
+
+.regnfaner4 p {
+    position: absolute;
+    font-size: 30px;
+    top: 290px;
+    left: 115px;
+}
+/*r kortbillede*/
+ .regnmap1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 5px;
+    right: 5px;
+    left: 600px;
+ }
+
+ /*rn Slide sektioner på region nordjylland*/
+
+.slidesoverrn1 {
+    position: relative;
+    width: 100%;
+    height: 750px;
+    top: 920px;
+    background-color: #B5CDB0;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.rnslideoverskrift1 {
+    display: flex;
+    Margin: 0.5em;
+    padding: 1em;
+    font-size: 40px;
+    color: #020202;
+    text-shadow: 1px 1px 2px #040404;
+}
+
+
+.rnslidefane1 {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.slideregn1 {
+width: 18%;
+position: relative;
+}
+
+.slideregn1 :hover {
+opacity: 0.5;
+}
+
+.slideregn1 img {
+    object-fit: cover;
+    border-radius: 25px;
+    width: 98%;
+    height: 250px;
+}
+
+.slideregn1 h3 {
+    position: absolute;
+    top: 270px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.slideregn1 p {
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    color:#000000;
+    font-size: 25px;
+    top: 360px;
+}
+
+/*rn slidesektion 2 i region nordjylland*/
+.slidesoverrn2 {
+    position: relative;
+    width: 100%;
+    height: 830px;
+    top: 995px;
+    background-color: #B5CDB0;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.rnslideoverskrift2 {
+    display: flex;
+    Margin: 0.5em;
+    padding: 1em;
+    font-size: 40px;
+    color: #020202;
+    text-shadow: 1px 1px 2px #040404;
+}
+
+
+.rnslidefane2 {
+width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+.slidergn2 {
+width: 18%;
+position: relative;
+}
+
+.slidergn2 :hover {
+opacity: 0.5;
+}
+
+.slidergn2 img {
+    object-fit: cover;
+    border-radius: 25px;
+    width: 98%;
+    height: 250px;
+}
+
+.slidergn2 h3 {
+    position: absolute;
+    top: 270px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.slidergn2 p {
+    position: absolute;
+    left: 20px;
+    margin: 0;
+    color:#000000;
+    font-size: 25px;
+    top: 360px;
+}
+
+/*rn oplevelser hele året sektion*/
+
+.renoplevelsessektion1 {
+    position: relative;
+    width: 100%;
+    height: 1400px;
+    padding: 250px;
+    box-sizing: border-box;
+}
+
+.renopoverskrift2 {
+    width: 20%;
+    left: 0%;
+}  
+
+.renopoverskrift2 h2 {
+    position: absolute;
+    top:1050px;
+    left: 40px;
+    font-size: 65px;
+    width: 17%;
+}
+
+.renopoverskrift2 p {
+    position: absolute;
+    top: 1200px;
+    left: 40px;
+    font-size: 25px;
+    width: 17%;
+}
+
+.aaretsoplevelsern1 {
+    position: absolute;
+    top: 1150px;
+    left: 25%;
+    width: 12%;
+}
+
+.aaretsoplevelsern2 {
+    position: absolute;
+    top: 1150px;
+    left: 42%;
+    width: 12%;
+}
+
+.aaretsoplevelsern3 {
+    position: absolute;
+    top: 1150px;
+    left: 60%;
+    width: 12%;
+}
+
+.aaretsoplevelsern4 {
+    position: absolute;
+    top: 1150px;
+    left: 80%;
+    width: 12%;
+}
+
+.aaretsoplevelsern1 img {
+    position: static;
+    top: 30px;
+    left: 60px;
+    width: 50px;
+} 
+
+.aaretsoplevelsern2 img {
+    position: static;
+    top: 30px;
+    left: 260px;
+    width: 50px;
+} 
+
+.aaretsoplevelsern3 img {
+    position: static;
+    top: 30px;
+    left: 360px;
+    width: 50px;
+} 
+
+.aaretsoplevelsern4 img {
+    position: static;
+    top: 30px;
+    left: 360px;
+    width: 50px;
+}
+
+.aaretsoplevelsern1 h3 {
+    position: static;
+    margin-top: 10px;
+} 
+
+.aaretsoplevelsern2 h3 {
+    position: static;
+    margin-top: 10px;
+} 
+
+.aaretsoplevelsern3 h3 {
+        position: static;
+margin-top: 10px;
+} 
+
+.aaretsoplevelsern4 h3 {
+    position: static;
+    margin-top: 10px;
+}
+
+.aaretsoplevelsern1 p {
+    position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelsern2 p {
+    position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelsern3 p {
+        position: static;
+    margin-top: 25px;
+} 
+
+.aaretsoplevelsern4 p {
+        position: static;
+    margin-top: 25px;
+}
+/*rn praktisk information sektion*/
+
+.repraktiskopn1 {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background-color: #EAEADB;
+    box-sizing: border-box;
+}
+
+.repraktiskopn1 h2 {
+    position: absolute;
+    color: #000000;
+    font-size: 40px;
+    top: 20px;
+    left: 25px;
+}
+
+.repraktiskopn1 h3 {
+    color: #000000;
+    font-size: 25px;
+    margin: 5px;
+}
+
+.repraktiskopn1 p {
+    color: #000000;
+    font-size: 20px;
+    margin: 15px;
+}
+
+.reprakinfon1 {
+    position: absolute;
+    left: 5%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfon2 {
+    position: absolute;
+    left: 28%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfon3 {
+    position: absolute;
+    left: 51%;
+    top: 80px;
+    width: 20%;
+}
+
+.reprakinfon4 {
+    position: absolute;
+    left: 74%;
+    top: 80px;
+    width: 20%;
+}
+
 /*planlæg din tur nedenunder*/
+
+.pdthero {
+    position: relative;
+}
+
+.pdt1hero {
+    width: 100%;
+}
+
+.pdtherooverskrift {
+    position: absolute;
+    top: 60px;
+    left: 65px;
+    font-size: 70px;
+}
+
+.pdtherounderskrift {
+    position: absolute;
+    top: 160px;
+    left: 65px;
+    font-size: 30px;
+    width: 500px;
+}
+
+.pdtsoegefelter {
+    position: absolute;
+    background-color: #E0E6DF;
+    padding: 20px;
+    width: 80%;
+    height: 80px;
+    top: 600px;
+    left: 130px;
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    justify-content: center;
+}
+
+.pdtsoegefelter input {
+    padding: 10px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.pdtsoegefelter button {
+    height: 35px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #9FA28C;
+}
+
+.pdtvaelgoplevelse1 {
+    display: flex;
+    width: 80%;
+    margin: 35px auto 0;
+    gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pdtvaelgoplevelse1 h2, .pdtvaelgoplevelse1 h3 {
+    width: 100%;
+    margin: 0;
+    font-size: 35px;
+}
+
+.pdtvaelgoplevelse1 h2 {
+    color: #424E2F;
+    font-size: 70px;
+}
+
+.pdtikoner1, .pdtikoner2, .pdtikoner3, .pdtikoner4, .pdtikoner5, .pdtikoner6, .pdtikoner7, .pdtikoner8 {
+    width: 100px;
+    text-align: center;
+}
+
+.pdtikoner1 img, .pdtikoner2 img, .pdtikoner3 img, .pdtikoner4 img, .pdtikoner5 img, .pdtikoner6 img, .pdtikoner7 img, .pdtikoner8 img {
+width: 80px;
+height: 80px;
+object-fit: contain;
+border: 2px solid #000000;
+border-radius: 50%;
+padding: 10px;
+}
 
 /*booking nedenunder*/
 
