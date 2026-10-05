@@ -3202,9 +3202,179 @@ padding: 10px;
 }
 
 /*booking nedenunder*/
+.booksidetekst {
+    font-size: 50px;
+    top: 185px;
+    left: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.booksidetekst2 {
+    font-size: 45px;
+    top: 95px;
+    left: 80px;
+    padding: 80px;
+}
+
+.bookknap1 {
+display: flex;
+justify-content: center;
+align-items: center;
+ background-color: #222;
+    color: white;
+    padding:10px;
+    width: 250px;
+    margin: 20px auto;
+    left: 80px;
+    border-radius: 80px;
+}
+
+.bookknap2 {
+display: flex;
+justify-content: center;
+align-items: center;
+ background-color: #222;
+    color: white;
+    padding:10px;
+    width: 250px;
+    margin: 20px auto;
+    left: 80px;
+    border-radius: 80px;
+}
 
 /*om os nedenunder*/
+.omosherosek {
+    position: relative;
+    width: 100%;
+}
 
+.omoshero1 {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+}
+
+.omosherosek h1 {
+    position: absolute;
+    top: 65px;
+    left: 80px;
+    width: 610px;
+    font-size: 50px;
+}
+
+.omosherosek h2 {
+    position: absolute;
+    top: 200px;
+    left: 80px;
+    width: 350px;
+    font-size: 25px;
+}
+
+.omosinfo1 {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin: 20px auto;
+    align-items: center;
+    max-width: 1100px;
+}
+
+.omosinfo1 img {
+    width: 100%;
+    display: block;
+}
+
+.omosinfo1 h3 {
+    margin: 0 0 10px;
+}
+
+.omosinfo1 h2 {
+    margin: 0 0 20px;
+}
+
+.omosinfo1 p {
+    
+}
+
+.omosinfobjerg {
+    position: relative;
+    width: 90%;
+    height: 260px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:20px;
+    padding: 30px 40px;
+}
+
+.bjergbaggrund {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+
+}
+
+.omosinfobjerg h3 {
+    text-align: left;
+    position: relative;
+    grid-column: 1/5;
+    font-size: 45px;
+    margin: 0;
+}
+
+.bjerg {
+    position: relative;
+    text-align: center;
+}
+
+.bjerg img {
+    width: 85px;
+    height: 85px;
+}
+
+.bjerg h3 {
+    margin: 8px 0;
+    font-size: 25px;
+}
+
+.bjerg p {
+    margin: 0;
+    font-size: 17px;
+}
+
+.omosminiherob {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 40px;
+    margin: 40px auto;
+    max-width: 1100px;
+    width: 90%;
+}
+
+.omosminiherob img {
+    width: 100%;
+    display: block;
+}
+
+.omosminiherob h3 {
+    margin: 0 0 15px;
+    font-size: 25px;
+}
+
+.omosminiherob h2 {
+    margin: 0 0 20px;
+    font-size: 50px;
+}
+
+.omosminiherob p {
+    margin: 0;
+    font-size: 25px;
+}
 /*inspiration nedenunder*/
 
 /*hvad har du lyst til nedenunder*/
